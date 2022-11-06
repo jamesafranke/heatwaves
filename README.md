@@ -2,4 +2,6 @@
 
 Julia code for processing ERA5 data and creating a deep-learning based unsupervised classification of extreme heat events. 
 
-![era5_pressure_anomalies](https://github.com/jamesafranke/heatwaves/figures/test.png)
+
+Example pressure field anomaly --> 
+![https://github.com/jamesafranke/heatwaves/figures/test.png](https://github.com/jamesafranke/heatwaves/blob/main/figures/test.png)
