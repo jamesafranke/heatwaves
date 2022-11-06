@@ -1,11 +1,10 @@
-using Plots; plotlyjs(); theme(:dark) #unicodeplots() 
+using Plots; gr(); theme(:dark) #unicodeplots() 
 #using UnicodePlots
-using VegaLite, VegaDatasets
+#using VegaLite, VegaDatasets
 using Query, DataFrames, CSV, Dates
 using Statistics
 using NPZ
 using TSne, Clustering, Distances
-
 
 #### show plots of VAE success ####
 y = npzread("data/train_stack_12.npy")
@@ -109,8 +108,6 @@ df2 = df |>
 
 jim = 10
 
-using DataVoyager
-df |> Voyager()
 
 x = 1:10
 y = 1:10
